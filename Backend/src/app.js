@@ -12,7 +12,7 @@ app.use(
   cors({
     origin:
       process.env.NODE_ENV === "prod"
-        ? process.env.BACKEND_URL
+        ? process.env.FRONTEND_URL
         : "http://localhost:5173",
   })
 );
